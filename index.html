@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>لعبة المريخ | Team Oobleck - NASA Space Apps Mansoura</title>
+<meta name="theme-color" content="#080d18">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Rubik:wght@600;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="ring-progress" aria-hidden="true">
+  <svg viewBox="0 0 44 44"><circle class="bg" cx="22" cy="22" r="18"/><circle class="fg" cx="22" cy="22" r="18"/></svg><i></i>
+</div>
+
+<nav class="navbar">
+  <div class="container nav-wrapper">
+    <a href="#" class="nav-brand">
+      <img src="assets/team-oobleck-logo.svg" alt="شعار Team Oobleck" class="nav-logo" width="50" height="50">
+      <span><b>لعبة المريخ</b><small>Team Oobleck</small></span>
+    </a>
+    <a href="downloads.html" class="btn">تحميل اللعبة</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="stars" aria-hidden="true"></div><div class="shoot" aria-hidden="true"></div>
+  <svg class="dune d1" viewBox="0 0 1440 300" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 C220 40 380 170 640 110 S1100 20 1440 120 V300 H0Z"/></svg>
+  <svg class="dune d2" viewBox="0 0 1440 300" preserveAspectRatio="none" aria-hidden="true"><path d="M0 170 C260 100 460 230 740 160 S1200 90 1440 190 V300 H0Z"/></svg>
+  <svg class="dune d3" viewBox="0 0 1440 300" preserveAspectRatio="none" aria-hidden="true"><path d="M0 230 C300 190 520 270 800 225 S1250 180 1440 240 V300 H0Z"/></svg>
+  <div class="motes" aria-hidden="true"></div>
+  <div class="container hero-grid">
+    <div class="hero-body">
+      <div class="badge">مشروع NASA Space Apps Mansoura &bull; Team Oobleck</div>
+      <h1>مغامرة البقاء على كوكب المريخ</h1>
+      <p>لعبة تعليمية استكشافية: رائد فضاء هبط على سطح المريخ وتعطلت مركبته، والسبيل الوحيد للنجاة هو البحث عن <strong>مذكرات رواد ناسا الحقيقية</strong> وتطبيق تجاربهم العلمية والعملية للتغلب على قسوة الكوكب الأحمر.</p>
+      <div class="actions">
+        <a href="downloads.html" class="btn big">تحميل اللعبة الآن</a>
+        <a href="#video-player" class="btn big ghost">شاهد الفيديو</a>
+      </div>
+    </div>
+    <div class="porthole" aria-hidden="true">
+      <div class="ring r1"><svg class="o1" viewBox="0 0 200 200"><circle cx="100" cy="100" r="94" stroke-dasharray="430 160"/></svg></div>
+      <div class="ring r2"><svg class="o2" viewBox="0 0 200 200"><circle cx="100" cy="100" r="82" stroke-dasharray="380 135"/></svg></div>
+      <div class="ring r3"><svg class="o3" viewBox="0 0 200 200"><circle cx="100" cy="100" r="70" stroke-dasharray="270 170"/></svg></div>
+      <div class="glass"><img class="hero-logo" src="assets/team-oobleck-logo.svg" alt="" width="512" height="512" fetchpriority="high"></div>
+    </div>
+  </div>
+</header>
+
+<div class="facts">
+  <div class="container">
+    <div class="facts-grid">
+      <div class="fact rv"><b data-count="38" data-suf="%">38%</b><span>جاذبية المريخ مقارنة بالأرض</span></div>
+      <div class="fact rv" style="--i:1"><b data-count="43" data-suf="%">43%</b><span>ضوء الشمس اللي بيوصل المريخ مقارنة بالأرض</span></div>
+      <div class="fact rv" style="--i:2"><b data-count="60" data-pre="−" data-suf="°م">−60°م</b><span>متوسط الحرارة على سطح المريخ تقريباً</span></div>
+      <div class="fact rv" style="--i:3"><b data-count="4">4</b><span>مذكرات من ناسا جوّه اللعبة</span></div>
+    </div>
+  </div>
+</div>
+
+<section id="video-player">
+  <div class="container">
+    <div class="head"><h2>شاهد أجواء المهمة</h2><p>اضغط على الصورة لتشغيل المعاينة، واضغط عليها مرة أخرى للإيقاف.</p></div>
+    <div class="video-card">
+      <div class="vwrap">
+        <video width="848" height="480" preload="none" playsinline tabindex="0" poster="assets/video-cover.svg" aria-label="معاينة فيديو لعبة المريخ"><source src="assets/game_trailer.mp4" type="video/mp4">متصفحك لا يدعم تشغيل الفيديو.</video>
+        <div class="video-watermark" aria-hidden="true"><img src="assets/team-oobleck-logo.svg" alt=""><span>TEAM OOBLECK <small>MISSION 01 · MARS SURVIVAL</small></span></div>
+        <button class="video-launch" type="button" aria-label="تشغيل معاينة لعبة المريخ"></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about-sec">
+  <div class="container about-grid">
+    <div class="about-text rv">
+      <h3>قصة اللعبة وفكرتها</h3>
+      <p>تبدأ اللعبة عندما يهبط رائد فضاء على سطح كوكب المريخ في مهمة استكشافية، لكن مركبته تتعطل فجأة ليجد نفسه وحيداً في بيئة قاسية لا ترحم.</p>
+      <p>بدلاً من الخيال، تعتمد اللعبة على <strong>مذكرات حقيقية لرواد ومهندسي ناسا السابقين</strong> تركوا فيها تفاصيل وحلولاً عملية لكيفية البقاء على الكوكب. اللاعب بيقرأ هذه النوتات ويجرب حلولها بنفسه عملياً داخل اللعبة.</p>
+      <div class="goal"><strong>الهدف التعليمي:</strong> خوض مغامرات رواد ناسا عملياً بالاعتماد الحصري على مصادر وكالة الفضاء الأمريكية NASA الموثوقة.</div>
+    </div>
+    <div class="mech">
+      <div class="mech-card rv" style="--i:1">
+        <div class="mech-icon"><svg viewBox="0 0 100 100" stroke="var(--mars)"><path d="M50 12 A38 38 0 1 1 18 70"/><circle cx="50" cy="50" r="6" fill="var(--rose)" stroke="none"/></svg></div>
+        <div><h4>ضعف أشعة الشمس والعواصف الترابية</h4><p>الشمس على المريخ ضعيفة جداً مقارنة بالأرض والغبار يغطي الألواح الشمسية، فيتعلم اللاعب استخدام المفاعلات وتثبيتها كبديل طاقة فعال.</p></div>
+      </div>
+      <div class="mech-card rv" style="--i:2">
+        <div class="mech-icon"><svg viewBox="0 0 100 100" stroke="var(--ice)"><path d="M50 12 A38 38 0 1 1 18 70"/><path d="M50 34 A16 16 0 1 1 36 60"/></svg></div>
+        <div><h4>استخراج والاستفادة من جليد المريخ</h4><p>استغلال طبقات الجليد الموجودة في تربة المريخ كما استفاد منها الرواد السابقون لتوفير المياه والأكسجين ومقومات الحياة.</p></div>
+      </div>
+      <div class="mech-card rv" style="--i:3">
+        <div class="mech-icon"><svg viewBox="0 0 100 100" stroke="var(--rose)"><path d="M50 12 A38 38 0 1 1 18 70"/><path d="M30 50 H70 M30 38 H70 M30 62 H56" stroke="var(--ice)" stroke-width="5"/></svg></div>
+        <div><h4>نظام النوتات الاستكشافي</h4><p>نوتات يجدها اللاعب ملقاة على أرض المريخ أثناء استكشافه، ونوتات يحصل عليها كمكافأة عند إنهاء كل مستوى لترشده للخطوة التالية.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="logs-sec">
+  <div class="container">
+    <div class="head"><h2>مذكرات ناسا الـ <span class="logs-count" dir="ltr">4</span> في اللعبة</h2><p>كمّل السكرول وشوف النوتات بالترتيب اللي بتظهر بيه في اللعبة</p></div>
+    <div class="timeline" data-timeline>
+      <div class="step"><div class="node">1</div><div class="note rv" style="--i:0">
+        <span class="tag">مرمية على السطح</span><h4>أزمة الطاقة والغبار</h4>
+        <p>تشرح للاعب أن غبار المريخ يحجب أشعة الشمس الضعيفة، وترشده لكيفية تثبيت المفاعلات البديلة لتوليد الطاقة الكهربائية للأنظمة.</p>
+        <div class="meta">يجدها ملقاة أثناء المشي</div></div></div>
+      <div class="step"><div class="node">2</div><div class="note rv" style="--i:1">
+        <span class="tag">مرمية على السطح</span><h4>كنز الجليد المريخي</h4>
+        <p>توضح للاعب كيفية استخراج الجليد المدفون تحت رمال المريخ وتذويبه للحصول على مياه نقية لدعم الحياة والمحطة.</p>
+        <div class="meta">يجدها ملقاة أثناء المشي</div></div></div>
+      <div class="step"><div class="node">3</div><div class="note rv" style="--i:2">
+        <span class="tag">نهاية الليفل 1</span><h4>إدارة الموارد وضغط الهواء</h4>
+        <p>تظهر للاعب كمكافأة بعد إتمام الليفل الأول، وترشده لكيفية ضبط الضغط الجوي وإنتاج الأكسجين الصالح للتنفس داخل المأوى.</p>
+        <div class="meta">تفتح بعد إنهاء المستوى الأول</div></div></div>
+      <div class="step"><div class="node">4</div><div class="note rv" style="--i:3">
+        <span class="tag">المرحلة المتقدمة</span><h4>إصلاح المركبة وإشارة النجدة</h4>
+        <p>تحتوي على التوجيهات النهائية لربط مصادر الطاقة والوقود والبدء في إرسال إشارة الاتصال بالأرض لإتمام مهمة النجاة.</p>
+        <div class="meta">الليفل المتقدم / الإنقاذ</div></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="download">
+  <div class="container">
+    <div class="dl-card rv">
+      <h3>حمّل اللعبة وابدأ المغامرة الآن</h3>
+      <p>حمّل ملف اللعبة مباشرةً من موقعنا بصيغة ZIP.</p>
+      <a href="downloads.html" class="btn big">شوف خيارات التحميل</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <b>TEAM OOBLECK</b><span>NASA Space Apps Challenge &bull; Mansoura 2026</span>
+    <p>لعبة تعليمية مبنية على مصادر وأبحاث وكالة ناسا الرسمية</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var root=document.documentElement,
+      still=matchMedia('(prefers-reduced-motion: reduce)').matches,
+      tl=document.querySelector('[data-timeline]'),
+      steps=[].slice.call(document.querySelectorAll('.step')),
+      busy=false;
+  function clamp(v){return v<0?0:v>1?1:v}
+
+  function update(){
+    busy=false;
+    var vh=innerHeight, y=scrollY, max=root.scrollHeight-vh;
+    root.style.setProperty('--progress-offset',(113.1*(1-clamp(max>0?y/max:0))).toFixed(2)+'px');
+
+    var r=tl.getBoundingClientRect(),
+        f=still?1:clamp((vh*.6-r.top)/r.height);
+    tl.style.setProperty('--f',f.toFixed(3));
+    steps.forEach(function(s){
+      var n=s.querySelector('.node').getBoundingClientRect();
+      s.classList.toggle('on',still||n.top<vh*.6);
+    });
+  }
+  function req(){if(!busy){busy=true;requestAnimationFrame(update)}}
+  addEventListener('scroll',req,{passive:true});
+  addEventListener('resize',req);
+
+  var items=document.querySelectorAll('.rv');
+  if(still||!('IntersectionObserver' in window)){root.classList.add('static')}
+  else{
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.2});
+    items.forEach(function(el){el.classList.add('reveal-ready');io.observe(el)});
+  }
+  var rnd=function(a,b){return a+Math.random()*(b-a)};
+  var st=document.querySelector('.stars'),mo=document.querySelector('.motes');
+  for(var i=0;i<26;i++){var e=document.createElement('i'),z=rnd(1,2.6);
+    e.style.cssText='left:'+rnd(0,100)+'%;top:'+rnd(0,55)+'%;width:'+z+'px;height:'+z+'px;--t:'+rnd(2,5)+'s;--d:-'+rnd(0,5)+'s';st.appendChild(e)}
+  for(i=0;i<8;i++){e=document.createElement('i');
+    e.style.cssText='left:'+rnd(0,100)+'%;--x:'+rnd(-120,120)+'px;--t:'+rnd(7,14)+'s;--d:-'+rnd(0,12)+'s';mo.appendChild(e)}
+  var h1=document.querySelector('.hero h1');
+  h1.innerHTML=h1.textContent.trim().split(/\s+/).map(function(w,i){return '<span style="--w:'+i+'">'+w+'</span>'}).join(' ');
+  var pb=document.querySelector('.video-launch'),vw=document.querySelector('.vwrap'),v=vw.querySelector('video');
+  if(!still){
+    var canvas=document.createElement('canvas'),ctx=canvas.getContext('2d'),particles=[];
+    canvas.className='video-particles';canvas.setAttribute('aria-hidden','true');vw.appendChild(canvas);
+    function sizeCanvas(){
+      var box=vw.getBoundingClientRect(),scale=Math.min(window.devicePixelRatio||1,1.5);
+      canvas.width=Math.round(box.width*scale);canvas.height=Math.round(box.height*scale);
+      canvas.style.width=box.width+'px';canvas.style.height=box.height+'px';ctx.setTransform(scale,0,0,scale,0,0);
+      particles=Array.from({length:34},function(){return{x:Math.random()*box.width,y:Math.random()*box.height,r:Math.random()*1.8+.7,speed:Math.random()*13+5,phase:Math.random()*Math.PI*2,drift:Math.random()*8+3}});
+    }
+    var pointer={x:0,y:0},visible=false,frame=0,lastTime=0;
+    sizeCanvas();
+    if('ResizeObserver' in window)new ResizeObserver(sizeCanvas).observe(vw);else window.addEventListener('resize',sizeCanvas);
+    vw.addEventListener('pointermove',function(e){var r=vw.getBoundingClientRect();pointer.x=(e.clientX-r.left)/r.width*2-1;pointer.y=(e.clientY-r.top)/r.height*2-1},{passive:true});
+    vw.addEventListener('pointerleave',function(){pointer.x=0;pointer.y=0},{passive:true});
+    function startCover(){if(!frame&&v.paused&&visible&&!document.hidden)frame=requestAnimationFrame(animateCover)}
+    function stopCover(){if(frame){cancelAnimationFrame(frame);frame=0}}
+    function animateCover(time){
+      frame=0;
+      if(v.paused&&!document.hidden&&visible){
+        var w=vw.clientWidth,h=vw.clientHeight,dt=lastTime?Math.min((time-lastTime)/1000,.04):0;
+        lastTime=time;
+        ctx.clearRect(0,0,w,h);
+        particles.forEach(function(p){
+          p.y-=p.speed*dt;p.phase+=dt*1.6;
+          if(p.y<0){p.y=h;p.x=Math.random()*w}
+          var x=p.x+pointer.x*p.drift+Math.sin(p.phase)*4,y=p.y+pointer.y*p.drift*.45;
+          ctx.beginPath();ctx.arc(x,y,p.r,0,Math.PI*2);
+          ctx.fillStyle='rgba(255,213,174,'+(.24+Math.sin(p.phase)*.22)+')';ctx.shadowColor='#ffad78';ctx.shadowBlur=10;ctx.fill();
+        });
+        v.style.transform='translate3d('+(pointer.x*5)+'px,'+(pointer.y*4)+'px,0) scale('+(1.025+Math.sin(time*.00045)*.012)+')';
+        frame=requestAnimationFrame(animateCover);
+      }
+    }
+    if('IntersectionObserver' in window){
+      var coverObserver=new IntersectionObserver(function(entries){visible=entries[0].isIntersecting;if(visible)startCover();else stopCover()},{threshold:.05});
+      coverObserver.observe(vw);
+    }else{visible=true;startCover()}
+    v.addEventListener('play',function(){stopCover();v.style.transform=''});
+    v.addEventListener('pause',startCover);
+    document.addEventListener('visibilitychange',function(){if(document.hidden)stopCover();else startCover()});
+  }
+  v.volume=.25;
+  function toggleVideo(){
+    if(v.paused){
+      v.muted=false;
+      v.play().catch(function(error){console.error('تعذر تشغيل الفيديو:',error)});
+    }else v.pause();
+  }
+  pb.addEventListener('click',toggleVideo);
+  v.addEventListener('click',toggleVideo);
+  v.addEventListener('keydown',function(e){if(e.code==='Space'||e.code==='Enter'){e.preventDefault();toggleVideo()}});
+  v.addEventListener('play',function(){vw.classList.add('playing','started');pb.setAttribute('aria-label','إيقاف معاينة لعبة المريخ')});
+  v.addEventListener('pause',function(){vw.classList.remove('playing');pb.setAttribute('aria-label','استكمال معاينة لعبة المريخ')});
+  document.querySelectorAll('[data-count]').forEach(function(b){
+    var to=+b.dataset.count,pre=b.dataset.pre||'',suf=b.dataset.suf||'';
+    function run(){var t0=performance.now();(function f(t){var k=Math.min((t-t0)/1400,1),q=1-Math.pow(1-k,3);
+      b.textContent=pre+Math.round(to*q)+suf;if(k<1)requestAnimationFrame(f)})(t0)}
+    if(still||!('IntersectionObserver' in window))return;
+    b.textContent=pre+'0'+suf;
+    new IntersectionObserver(function(es,o){if(es[0].isIntersecting){run();o.disconnect()}},{threshold:.6}).observe(b)});
+  update();
+})();
+</script>
+<script src="animations.js" defer></script>
+</body>
+</html>

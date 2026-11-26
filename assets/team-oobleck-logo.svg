@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="mars" x1="140" y1="68" x2="366" y2="438" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFC18C"/>
+      <stop offset=".54" stop-color="#EF805C"/>
+      <stop offset="1" stop-color="#A94743"/>
+    </linearGradient>
+    <linearGradient id="night" x1="222" y1="303" x2="306" y2="449" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#803D49" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#261E31" stop-opacity=".92"/>
+    </linearGradient>
+    <linearGradient id="visor" x1="235" y1="185" x2="280" y2="226" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A8E7EE"/>
+      <stop offset=".48" stop-color="#28485B"/>
+      <stop offset="1" stop-color="#101A2C"/>
+    </linearGradient>
+    <linearGradient id="orbit" x1="63" y1="202" x2="445" y2="348" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8BD5E2"/>
+      <stop offset=".52" stop-color="#F3F4F4"/>
+      <stop offset="1" stop-color="#FFC18C"/>
+    </linearGradient>
+    <clipPath id="planet">
+      <circle cx="256" cy="256" r="205"/>
+    </clipPath>
+  </defs>
+  <rect x="12" y="12" width="488" height="488" rx="150" fill="#0B1524" stroke="#8BD5E2" stroke-opacity=".72" stroke-width="6"/>
+  <circle cx="256" cy="256" r="218" stroke="#E8F0F5" stroke-opacity=".42" stroke-width="3"/>
+  <circle cx="256" cy="256" r="205" fill="url(#mars)" stroke="#FFE0CB" stroke-opacity=".9" stroke-width="5"/>
+  <g clip-path="url(#planet)">
+    <circle cx="151" cy="128" r="34" fill="#FFD4B4" fill-opacity=".72"/>
+    <circle cx="151" cy="128" r="47" stroke="#FFD4B4" stroke-opacity=".22" stroke-width="3"/>
+    <path d="M37 307c64-56 130-64 192-32 58 30 111 27 168-11 38-25 72-37 115-37v217H37V307Z" fill="#A84942" fill-opacity=".72"/>
+    <path d="M37 365c74-45 143-49 207-17 63 32 126 27 188-8 29-16 54-24 80-24v128H37V365Z" fill="url(#night)"/>
+    <path d="M50 305c67-50 125-58 181-30 65 33 119 23 189-24" stroke="#FFE0C3" stroke-opacity=".65" stroke-width="4" stroke-linecap="round"/>
+    <path d="M66 340c72-21 137-19 195 7" stroke="#F3B28D" stroke-opacity=".28" stroke-width="3" stroke-linecap="round"/>
+    <path d="M385 283v-54" stroke="#142137" stroke-width="8" stroke-linecap="round"/>
+    <path d="M385 229 372 248h26l-13-19Z" fill="#FFE0CB"/>
+    <circle cx="385" cy="229" r="5" fill="#8BD5E2"/>
+  </g>
+  <path d="M68 328c31-111 121-183 228-183 52 0 103 20 148 57" stroke="#0B1524" stroke-width="29" stroke-linecap="round"/>
+  <path d="M68 328c31-111 121-183 228-183 52 0 103 20 148 57" stroke="url(#orbit)" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="68" cy="328" r="12" fill="#8BD5E2" stroke="#0B1524" stroke-width="4"/>
+  <circle cx="444" cy="202" r="12" fill="#FFC18C" stroke="#0B1524" stroke-width="4"/>
+  <g stroke="#0B1524" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m225 309 6 55 25 12 27-12 9-57-67 2Z" fill="#D9E7EA" stroke-width="7"/>
+    <path d="m231 350-17 35m66-36 16 35" stroke-width="13"/>
+    <path d="m230 276-21 31 12 18 23-25m42-24 19 29-11 18-21-26" fill="#C5DDE1" stroke-width="8"/>
+    <path d="M228 285c0-22 13-38 33-38h12c13 0 22 11 22 25v39c-19 10-46 8-66-2l-1-24Z" fill="#E5ECE9" stroke-width="8"/>
+    <path d="M285 259h17c10 0 17 7 17 17v38l-27 4-9-59Z" fill="#F28C63" stroke-width="7"/>
+    <circle cx="257" cy="215" r="34" fill="#EAF1EE" stroke-width="8"/>
+    <path d="M238 211c1-15 9-24 23-25 13 0 21 9 23 24-11 11-31 13-46 1Z" fill="url(#visor)" stroke="#8BD5E2" stroke-width="4"/>
+    <path d="m243 196 10-6" stroke="#F8F9FC" stroke-opacity=".85" stroke-width="4"/>
+    <path d="M245 244v9m29-9v9" stroke="#0B1524" stroke-width="5"/>
+    <circle cx="259" cy="292" r="7" fill="#FF855E" stroke-width="3"/>
+  </g>
+</svg>

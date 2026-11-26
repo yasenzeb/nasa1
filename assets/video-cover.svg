@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="space" x1="181" y1="43" x2="1248" y2="989" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset=".58" stop-color="#13243A"/>
+      <stop offset="1" stop-color="#392630"/>
+    </linearGradient>
+    <radialGradient id="sunset" cx="0" cy="0" r="1" gradientTransform="matrix(-637 453 -376 -528 1283 242)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E98A64" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#E98A64" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="planet" cx="0" cy="0" r="1" gradientTransform="rotate(135 451 519) scale(433)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD1A2"/>
+      <stop offset=".48" stop-color="#E99A72"/>
+      <stop offset="1" stop-color="#B6534D"/>
+    </radialGradient>
+    <linearGradient id="shade" x1="1071" y1="122" x2="1392" y2="494" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#28243A" stop-opacity="0"/>
+      <stop offset="1" stop-color="#28243A" stop-opacity=".54"/>
+    </linearGradient>
+    <linearGradient id="horizon" x1="842" y1="520" x2="827" y2="888" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9B5147"/>
+      <stop offset="1" stop-color="#422638"/>
+    </linearGradient>
+    <linearGradient id="foreground" x1="791" y1="657" x2="791" y2="950" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#302335"/>
+      <stop offset="1" stop-color="#111927"/>
+    </linearGradient>
+    <clipPath id="planetClip">
+      <circle cx="1162" cy="325" r="220"/>
+    </clipPath>
+  </defs>
+  <path fill="url(#space)" d="M0 0h1600v900H0z"/>
+  <path fill="url(#sunset)" d="M0 0h1600v900H0z"/>
+  <circle cx="1162" cy="325" r="220" fill="url(#planet)"/>
+  <g clip-path="url(#planetClip)" fill="#A94F4D" fill-opacity=".27">
+    <ellipse cx="1061" cy="235" rx="62" ry="22" transform="rotate(-24 1061 235)"/>
+    <ellipse cx="1231" cy="192" rx="43" ry="16" transform="rotate(16 1231 192)"/>
+    <ellipse cx="1268" cy="354" rx="74" ry="25" transform="rotate(-14 1268 354)"/>
+    <ellipse cx="1095" cy="414" rx="37" ry="13" transform="rotate(21 1095 414)"/>
+  </g>
+  <circle cx="1162" cy="325" r="220" fill="url(#shade)"/>
+  <g fill="#F2F4F5" fill-opacity=".82">
+    <circle cx="130" cy="161" r="2"/><circle cx="298" cy="295" r="1.6"/><circle cx="476" cy="142" r="2"/>
+    <circle cx="638" cy="215" r="1.5"/><circle cx="772" cy="104" r="1.8"/><circle cx="914" cy="188" r="1.4"/>
+    <circle cx="1452" cy="141" r="1.8"/><circle cx="1509" cy="381" r="1.6"/><circle cx="1361" cy="514" r="1.5"/>
+    <circle cx="181" cy="448" r="1.7"/><circle cx="544" cy="378" r="1.5"/><circle cx="77" cy="354" r="1.8"/>
+  </g>
+  <circle cx="476" cy="142" r="8" fill="#8BD5E2" fill-opacity=".62"/>
+  <circle cx="772" cy="104" r="6" fill="#FFD4B4" fill-opacity=".72"/>
+  <path d="M0 612c127-41 246-61 356-38 123 26 223 1 338-68 139-83 245-82 374-30 134 54 246 66 367 21 67-25 122-34 165-24v427H0V612Z" fill="url(#horizon)"/>
+  <path d="M0 700c142-48 263-55 383-25 135 33 231 22 357-42 130-66 251-70 380-28 151 49 284 47 480-9v304H0V700Z" fill="url(#foreground)"/>
+  <path d="M0 700c142-48 263-55 383-25 135 33 231 22 357-42 130-66 251-70 380-28 151 49 284 47 480-9" stroke="#EAA077" stroke-opacity=".44" stroke-width="2"/>
+</svg>
